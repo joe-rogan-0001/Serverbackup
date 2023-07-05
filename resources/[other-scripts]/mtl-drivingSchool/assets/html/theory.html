@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theory test</title>
+
+  <link rel="preload" href="../fonts/subset-Akrobat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link href="../css/bootstrap.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
+
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/questions.js"></script>
+  <script src="../js/javascript.js"></script>
+</head>
+
+<body style="background: transparent !important;">
+  <div id="fullscreen" style="display: none;" class="container-fluid mt-5">
+    <div class="container-sm d-flex mh-100 justify-content-center bg-light d-flex bd-highlight shadow"style="padding-left: 0 !important;">
+      
+      <div class="d-flex flex-column flex-shrink-0 pt-1" style="background-color: #313443 !important; width: 4.5rem;">
+        <a class="d-block p-3 link-dark text-center" style="border-bottom: 0px !important;" title="">
+          <i class="bi bi-stoplights" style="color: lightyellow; font-size: 1.3rem;"></i>
+        </a>
+        <ul id="sidebar" class="nav nav-pills nav-flush flex-column mb-auto text-center"></ul>
+      </div>
+
+      <div id="home" class="pages p-5 flex-fill mh-100 bd-highlight bg-light">
+        <h3 id="home-header"></h3>
+        <br>
+        <p id="home-text" class="bg-light fs-5"></p>
+      </div>
+
+      <div id="register" class="pages p-5 flex-fill mh-100 bd-highlight bg-light">
+        <h3 id="register-header"></h3>
+        <br>
+
+        <div id="register-form" class="container">
+          <form id="register-form-itself" role="form" class="row g-3">
+            
+          </form>
+        </div>
+      </div>
+
+
+
+      <div id="theory" class="pages p-5 flex-fill mh-100 bd-highlight bg-light">
+        <h3 id="theory-header1"></h3>
+        <br>
+        <div id="theory-flex" class="row">
+          <div class="col-9">
+            <form id="theory-form-itself-withoutRegister" role="form" class="form">
+            </form>
+            <h5 id="theory-header">PLEASE REGISTER</h5>
+            <h5 id="questionSelf"></h5>
+            <form id="question-form" role="form" class="form">
+              <div class="form-check">
+                <input id="answerA" class="form-check-input" type="radio" name="question" id="answerA" value="A">
+                <label class="form-check-label answerA" for="answerA">
+                  PLEASE REGISTER
+                </label>
+              </div>
+              <div class="form-check">
+                <input id="answerB" class="form-check-input" type="radio" name="question" id="answerB" value="B">
+                <label class="form-check-label answerB" for="answerB">
+                  PLEASE REGISTER
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="question" id="answerC" value="C">
+                <label class="form-check-label answerC" for="answerC">
+                  PLEASE REGISTER
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="question" id="answerD" value="D">
+                <label class="form-check-label answerD" for="answerD">
+                  PLEASE REGISTER
+                </label>
+                
+              </div><br>
+              <div id="selectAlert" style="display: none;" class="alert alert-danger" role="alert">
+                Not loading due not registered...
+              </div><br>
+                <button id="theory-button" class="mr-2 btn btn-primary" style="margin-right: 10px">Next</button>
+            </form>
+          </div>
+          <div class="col-3">
+            <div class="card text-dark bg-light" style="max-width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Error points</h5>
+                <p class="card-text bg-light" id="errors">PLEASE REGISTER</p>
+              </div>
+            </div><br>
+            <div class="card text-dark bg-light" style="max-width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Time</h5>
+                <p class="card-text bg-light" id="time-left-timer">PLEASE REGISTER</p>
+              </div>
+            </div><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

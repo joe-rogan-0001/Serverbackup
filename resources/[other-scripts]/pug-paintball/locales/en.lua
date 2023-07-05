@@ -1,0 +1,40 @@
+Translations = {
+    error = {
+        choose_team_first = "You need to choose a weapon and join a team first",
+        no_lives_entered = "Player lives not entered.",
+        max_lives_set = "Maximum lives that can be set is ",
+        no_wager = "Wager Amount not entered.",
+        wager_cap = "Wager must be between ",
+        active_game = "A game is already active"
+    },
+    success = {
+        savedfrinfall = "Don't worry you've been saved king! :)",
+        weapon_chosen = "Youve chosen "
+    },
+    menu = {
+        arenalobby = "Paintball Arena Lobby",
+        start = "Start",
+        players = "Players",
+        redteam = "Red Team",
+        blueteam = "Blue Team",
+        lives = 'Amount of lives',
+        arena_lives = 'Arena Lives',
+        wager = 'Wager Amount',
+        arena_wager = 'Arena Wager',
+        weapon = 'Choose Weapon',
+        map = 'Choose Map',
+        mode = 'Choose Game Mode',
+        spectate = 'Spectate Players',
+        random = 'Random',
+        pistol_option = 'Small and deadly',
+        smg_option = "Lightweight machine guns",
+        shotgun_option = 'Heavy close range shotguns',
+        assault_option = 'Heavy close range shotguns',
+        sniper_option = 'Faze Up',
+        pistol_header = "Pistol's",
+        smg_header = "Smg's",
+        shotgun_header = "Shotgun's",
+        assault_header = "Assault Rifle's",
+        sniper_header = "Sniper Rifle's",
+    },
+}
