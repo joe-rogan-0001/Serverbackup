@@ -1,0 +1,1 @@
+window.emsReportTypes = ["Medical Report", "Forensic Report", "ICU Report"];

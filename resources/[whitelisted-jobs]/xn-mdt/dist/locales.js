@@ -1,0 +1,230 @@
+window.locales = {
+	placeholder: "Document Content Goes Here",
+	successTitle: "Success",
+	errorTitle: "Error",
+	close: "CLOSE",
+	assign: "ASSIGN",
+	create: "CREATE",
+	add: "ADD",
+	alreadyAdded: "ALREADY ADDED",
+	save: "SAVE",
+	search: "Search",
+	emptyField: "Empty Fields",
+	emptyFieldOrId: "Empty Field or Invalid ID",
+	evidenceAlreadyAdded: "Evidence already added!",
+	evidenceNotFound: "Evidence not found!",
+	failed: "Failed",
+	welcome: "Welcome",
+	badge: "Badge",
+	duty: "DUTY",
+	on: "ON",
+	off: "OFF",
+
+	sidebar: {
+		dashboard: "Dashboard",
+		dispatch: "Dispatch",
+		incidents: "Incidents",
+		profiles: "Profiles",
+		vehicles: "Vehicles",
+		weapons: "Weapons",
+		reports: "Reports",
+		icu: "ICU",
+		evidence: "Evidence",
+		charges: "Charges",
+		config: "Config",
+	},
+
+	dashboard: {
+		warrants: "Warrants",
+		bolo: "BOLO",
+	},
+
+	dispatch: {
+		msgSent: "Message sent!",
+		msgsTitle: "Dispatch Messages",
+		msgInputPlaceholder: "Message Dispatch",
+		activeUnitsTitle: "Active Units",
+		unitAttached: "Unit Attached",
+		unitDetached: "Unit Detached",
+		waypointSet: "Waypoint set",
+		callBlipRemoved: "Call Blip removed",
+		callsTitle: "Calls",
+	},
+
+	incidents: {
+		title: "Incidents",
+		create: "Create Incident",
+		edit: "Edit Incident",
+		incidentTitle: "Title",
+		loadedSuccess: "Incident loaded with ID:",
+		save: "Incident saved with ID:",
+	},
+
+	evidence: {
+		title: "Evidence",
+		assign: "Assign Evidence",
+		id: "Evidence ID",
+		assigned: "Evidence assigned ID: ",
+		create: "Create Evidence",
+		type: "Type",
+		image: "Image URL",
+		description: "Description",
+		created: "Evidence created ID:",
+		submit: "Submit Evidence",
+		evidenceCreated: "Evidence created with ID:",
+	},
+
+	officersInvolved: {
+		title: "Officers Involved",
+		assign: "Assign Officer",
+	},
+
+	personsInvolved: {
+		title: "Persons Involved",
+		assign: "Assign Person",
+	},
+
+	personsRegistered: {
+		title: "Persons Registered",
+		register: "Register Person",
+	},
+
+	vehiclesInvolved: {
+		title: "Vehicles Involved",
+		assign: "Assign Vehicle",
+		plate: "PlateID",
+		found: "Found Vehicle",
+		model: "Model",
+		seized: "Seized",
+		fine: "Fine",
+	},
+
+	criminal: {
+		title: "Add Criminal Scum",
+		name: "Name",
+		citizenid: "CitizenID",
+		editCharges: "Edit Charges",
+		warrantArrest: "Warrant for Arrest",
+		warrantTitle: "Warrant",
+		warrantProgress: "In Progress",
+		warrantExpired: "Expired",
+		warrantExpires: "Expires",
+		reductions: "Reductions",
+		months: "month(s)",
+		guilty: "Pleaded Guilty",
+		processed: "Processed",
+		charges: "Current Charges",
+	},
+
+	profiles: {
+		title: "Profiles",
+		image: "Profile Image URL",
+		editProfile: "Edit Profile",
+		profileLoaded: "Profile loaded with CitizenID:",
+		profileSaved: "Profile saved with CitizenID:",
+		licences: "Licences",
+		identity: "Identity Card",
+		vehicles: "Vehicles",
+		housing: "Housing",
+		employment: "Employment",
+		priors: "Priors",
+		regWeapons: "Registered Weapons",
+		fingerprint: "Fingerprint",
+	},
+
+	vehicles: {
+		title: "Vehicles",
+		editVehicle: "Edit Vehicle",
+		vehicleLoaded: "Vehicle loaded with PlateID:",
+		vehicleSaved: "Vehicle saved with PlateID:",
+		seizes: "Seizes",
+		incident: "Incident",
+		report: "Report",
+		fine: "Fine",
+		seized: "Seized",
+		incidentInvolved: "Incidents Involved",
+		reportInvolved: "Reports Involved",
+	},
+
+	weapons: {
+		title: "Weapons",
+		edit: "Edit Weapon",
+		weaponSerial: "Weapon Serial No",
+		weaponName: "Weapon Name",
+		loadedSuccess: "Weapon loaded with Serial No:",
+		save: "Weapon saved with Serial No:",
+		incident: "Incident",
+		report: "Report",
+		incidentInvolved: "Incidents Involved",
+		reportInvolved: "Reports Involved",
+		create: "Register Weapon",
+	},
+
+	reports: {
+		title: "Reports",
+		create: "Create Report",
+		edit: "Edit Report",
+		investigative: "Investigative Report",
+		civilian: "Civilian Report",
+		bolo: "BOLO",
+		reportLoaded: "Report loaded with ID:",
+		reportSaved: "Report saved with ID:",
+		type: "Report Type",
+		reportTitle: "Title",
+	},
+
+	emsDashboard: {
+		reports: "Reports",
+		icu: "ICU Check INs",
+	},
+
+	emsReport: {
+		create: "Create Report",
+		edit: "Edit Report",
+		reportLoaded: "Report loaded with ID:",
+		reportSaved: "Report saved with ID:",
+		type: "Type",
+		reportTitle: "Title",
+	},
+
+	icuReport: {
+		create: "Create ICU Check In",
+		edit: "Edit ICU Check In",
+		loaded: "ICU Check In loaded with ID:",
+		saved: "ICU Check In saved with ID:",
+		reportTitle: "Title",
+		recovery: "Estimated Recovery",
+		contact: "Emergency Contact",
+		patients: "Patients",
+	},
+
+	doctorsInvolved: {
+		title: "Doctors Involved",
+		assign: "Assign Doctor",
+	},
+
+	gallery: {
+		title: "Gallery",
+		create: "Create Item",
+		type: "Type",
+		image: "Image URL",
+		description: "Description",
+		itemAdded: "Item added succesfully",
+	},
+
+	warrant: {
+		success: "Warrant action successful",
+		approved: "Approved",
+		pending: "Pending Approval",
+		rejected: "Approval Rejected",
+	},
+
+	config: {
+		title: "Config",
+		saved: "Config Saved Successfully",
+		caption:
+			"You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have the right to an attorney. If you cannot afford an attorney, one will be provided for you. Do you understand the rights I have just read to you? With these rights in mind, do you wish to speak to me?",
+		extended: "Extended Sidebar",
+		dark: "Dark Theme",
+	},
+};
